@@ -32,7 +32,7 @@ jobs:
       # Pinned, prebuilt binary — keep the version in lockstep with
       # CARGO_DENY_VERSION in xtask/src/main.rs and the ci.yml install step.
       - name: Install cargo-deny
-        uses: taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912 # v2.81.10
+        uses: taiki-e/install-action@bffeee26d4db9be238a4ea78d8826604ebcb594d # v2.82.5
         with:
           tool: cargo-deny@0.19.8
 
